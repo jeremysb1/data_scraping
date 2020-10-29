@@ -1,2 +1,2 @@
-# data_scraping
-Data scraping projects with Python
+# web_scraping
+Web scraping projects with Python
