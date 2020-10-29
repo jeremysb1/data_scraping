@@ -5,6 +5,8 @@ import pprint
 res = requests.get('https://news.ycombinator.com/news')
 res2 = requests.get('https://news.ycombinator.com/news?p=2')
 
+# The code below starts to repeat itself and could be put into a function
+
 hn_text = BeautifulSoup(res.text, 'html.parser')
 hn_text2 = BeautifulSoup(res2.text, 'html.parser')
 
